@@ -5,12 +5,20 @@ img {
 
 h1 {
     text-align: left;
+    display: inline;
+}
+
+h3 {
+    margin: 50px;
+    width: 300px;
+    height: 200px;
+    border: 2px;
+    border-radius: 10px;
 }
 
 p {
+    float: right;
     font-size: 15px;
     font-family: sans-serif;
     text-align: right;
-    position: relative;
-    bottom: 43px;
 }
