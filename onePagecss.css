@@ -2,3 +2,8 @@ img {
     width:"960";
     height:"544";
 }
+
+p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
