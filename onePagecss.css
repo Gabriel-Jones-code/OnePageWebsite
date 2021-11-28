@@ -13,13 +13,9 @@ input {
     margin: 3px;
     width: 100px;
     height: 20px;
-}
-
-input text{
-    border: 5px;
     border-radius: 2px;
+    border: 1px solid black;
 }
-
 
 p {
     float: right;
