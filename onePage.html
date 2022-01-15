@@ -32,6 +32,7 @@
 			<!--Gallery-->
 			<div id='light' class='slides'>
 				<!--Lightbox-->
+				<span class='close button' onclick='closeLightbox()'>&times;</span>
 				<div class="gallerySlides">
 					<div class="slideNum">1 / 5</div>
 					<img src="./Images/cheese1.jpg" width="960" height="544">
@@ -52,9 +53,36 @@
 					<div class="slideNum">5 / 5</div>
 					<img src="./Images/cheese5.jpg" width="960" height="544">
 				</div>
+
+				<!--Slide controls-->
+				<a class='prev' onclick="moveSlide(-1)">&#10094;</a>	<!--&#10094 is a left cheveron-->
+				<a class='next' onclick="moveSlide(1)">&#10095;</a>		<!--&#10095 is a right cheveron-->
+
+				<!--Captions-->
+				<div class="capt">
+					<p id="captions"></p>
+				</div>
+
+				<!--Thumbnail controls-->
+				<div class='gallerySlides'>
+					<img class='imageThumb' src='./Images/cheese1.jpg' onclick='currentSlide(1)' alt='American Cheese'>
+				</div>
+				<div class='gallerySlides'>
+					<img class='imageThumb' src='./Images/cheese2.jpg' onclick='currentSlide(2)' alt='Dolce Cheese'>
+				</div>
+				<div class='gallerySlides'>
+					<img class='imageThumb' src='./Images/cheese3.jpg' onclick='currentSlide(3)' alt='Cheddar Cheese'>
+				</div>
+				<div class='gallerySlides'>
+					<img class='imageThumb' src='./Images/cheese4.jpg' onclick='currentSlide(4)' alt='Cream Cheese'>
+				</div>
+				
+
 			</div>
-			<!--End Gallery-->
 		</div>
+		<!--End Gallery-->
+
+
 		<!--Contact-->
 			<div id="contact">
 				<h3>Please provide the following information to get updates on more cheese details</h3>
