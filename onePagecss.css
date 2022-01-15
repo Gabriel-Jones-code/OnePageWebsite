@@ -1,0 +1,32 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Nav*/
+.navbarTop {
+    width: 100%;        /*uses entire width of page*/
+    top: 0; left: 0;    /*top most and left most of the page*/
+    position: fixed;    /*stays at the top of the page*/
+    overflow: hidden;   /*keeps anything from spilling out*/
+    background-color: #ffcc;
+    display: block;
+}
+
+.navbarTop a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    float: left;
+    text-decoration: none;
+}
+
+#video{
+    display: block;
+    position: relative;
+    margin: 50px 0 0 0;
+}
