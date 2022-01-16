@@ -30,6 +30,102 @@
 
 			<!--Gallery-->
 
+			<div class="row">
+				<div class="column">
+					<img src="Images/cheese1.jpg" onclick="openModal();currentSlide(1)"
+					class="hoverShadow">
+				</div>
+
+				<div class="column">
+					<img src="Images/cheese2.jpg" onclick="openModal();currentSlide(2)"
+					class="hoverShadow">
+				</div>
+
+				<div class="column">
+					<img src="Images/cheese3.jpg" onclick="openModal();currentSlide(3)"
+					class="hoverShadow">
+				</div>
+
+				<div class="column">
+					<img src="Images/cheese4.jpg" onclick="openModal();currentSlide(4)"
+					class="hoverShadow">
+				</div>
+
+				<div class="column">
+					<img src="Images/cheese5.jpg" onclick="openModal();currentSlide(5)"
+					class="hoverShadow">
+				</div>
+			</div>
+
+			<!--Lightbox-->
+			<div id="gallery" class="modal">
+				<span class="close" onclick="closeModal();">&times;</span>
+				<div class="content">
+
+					<div class="slides">
+						<div class="number">1 / 5</div>
+						<img src="Images/cheese1.jpg" style="width: 100%">
+					</div>
+
+					<div class="slides">
+						<div class="number">2 / 5</div>
+						<img src="Images/cheese2.jpg" style="width: 100%">
+					</div>
+
+					<div class="slides">
+						<div class="number">3 / 5</div>
+						<img src="Images/cheese3.jpg" style="width: 100%">
+					</div>
+
+					<div class="slides">
+						<div class="number">4 / 5</div>
+						<img src="Images/cheese4.jpg" style="width: 100%">
+					</div>
+
+					<div class="slides">
+						<div class="number">5 / 5</div>
+						<img src="Images/cheese5.jpg" style="width: 100%">
+					</div>
+
+					<!--Slide controls-->
+
+					<a class="prev" onclick="slidePlus(-1)">&#10094;</a>
+					<a class="next" onclick="slidePlus(1)">&#10095;</a>
+
+					<!--Captions-->
+					
+					<div class="captionContainer">
+						<p id="caption"></p>
+					</div>
+
+					<!--Image controls-->
+
+					<div class="column">
+						<img class="preview" src="Images/cheese1.jpg" onclick="currentSlide(1)"
+						alt="American"></img>
+					</div>
+					<div class="column">
+						<img class="preview" src="Images/cheese2.jpg" onclick="currentSlide(2)"
+						alt="Dolce"></img>
+					</div>
+
+					<div class="column">
+						<img class="preview" src="Images/cheese3.jpg" onclick="currentSlide(3)"
+						alt="Cheddar"></img>
+					</div>
+
+					<div class="column">
+						<img class="preview" src="Images/cheese4.jpg" onclick="currentSlide(4)"
+						alt="Cream"></img>
+					</div>
+
+					<div class="column">
+						<img class="preview" src="Images/cheese5.jpg" onclick="currentSlide(5)"
+						alt="Gouda"></img>
+					</div>
+
+				</div>
+			</div>
 			<!--End Gallery-->
 
 			<!--Contact-->
